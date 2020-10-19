@@ -1,5 +1,53 @@
-body{
+/*header*/
+.site-header.inicio{
 
+background-image: url(../img/header.jpg);
+height: 100vh;
+min-height: 600px;
+background-position: center center;
+background-size: cover;
+
+}
+
+.contenedor{
+
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
    
+}
 
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.navegacion a {
+
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+     
+}
+
+.navegacion a:hover {
+
+    color: #71b700;
+}
+
+footer{
+
+    background-color: black;
+    padding: 25px 0 0 15px;
+    
+    text-align: center;
+}
+
+footer p{
+
+
+    color: white;
+    padding-bottom: 15px;
 }
