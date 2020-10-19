@@ -277,9 +277,40 @@ margin-top: 1rem;
   padding: 2rem;
   border-radius: 15px;
   color: white;
+  margin-left: 3rem;
 }
 
 .testimonial p{
 
+text-align: right;
+
+}
+
+.blog h3{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.testimoniales h3{
+
+  text-align: center;
+  font-size: 3rem;
+}
+
+.testimonial blockquote::before{
+
+content:'';
+background-image: url(../img/comilla.svg);
+width: 4rem;
+height: 4rem;
+position: absolute;
+left: -2rem;
+
+}
+
+.testimonial blockquote{
+
+position: relative;
+padding-left: 5rem;
 
 }
