@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
 
 <body>
     <header class="site-header inicio">
-        <div class="contenedor">
+        <div class="contenedor contenido-header">
             <div class="barra">
                 <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
                 <nav class="navegacion">
@@ -23,66 +26,77 @@
             <h1>Venta de casas y departamentos exclusivos de lujo</h1>
         </div>
     </header>
-    <section>
-        <h2>Más sobre nosotros</h2>
+    <section class="contenedor seccion">
+        <h2 class="encabezado-nosotros">Más sobre nosotros</h2>
+        <div class="iconos-nosotros">
+            <div class="icono">
+                <img src="img/icono1.svg" alt="icono seguridad">
 
-        <div>
-            <img src="img/icono1.svg" alt="icono seguridad">
-
-            <h3>Seguridad</h3>
-            <p>Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Iusto, blanditiis!
-                In necessitatibus culpa odit laudantium, natus ullam
-                officia hic ea ex qui distinctio atque nesciunt dolorem a
-                cumque voluptate veniam!</p>
-        </div>
-        <div>
-            <img src="img/icono2.svg" alt="icono mejor precio">
-            <h3>El mejor precio</h3>
-            <p>Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Iusto, blanditiis!
-                In necessitatibus culpa odit laudantium, natus ullam
-                officia hic ea ex qui distinctio atque nesciunt dolorem a
-                cumque voluptate veniam!</p>
-        </div>
-        <div>
-            <img src="img/icono3.svg" alt="icono a tiempo">
-            <h3>A tiempo</h3>
-            <p>Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Iusto, blanditiis!
-                In necessitatibus culpa odit laudantium, natus ullam
-                officia hic ea ex qui distinctio atque nesciunt dolorem a
-                cumque voluptate veniam!</p>
+                <h3>Seguridad</h3>
+                <p>Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Iusto, blanditiis!
+                    In necessitatibus culpa odit laudantium, natus ullam
+                    officia hic ea ex qui distinctio atque nesciunt dolorem a
+                    cumque voluptate veniam!</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono2.svg" alt="icono mejor precio">
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Iusto, blanditiis!
+                    In necessitatibus culpa odit laudantium, natus ullam
+                    officia hic ea ex qui distinctio atque nesciunt dolorem a
+                    cumque voluptate veniam!</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono3.svg" alt="icono a tiempo">
+                <h3>A tiempo</h3>
+                <p>Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Iusto, blanditiis!
+                    In necessitatibus culpa odit laudantium, natus ullam
+                    officia hic ea ex qui distinctio atque nesciunt dolorem a
+                    cumque voluptate veniam!</p>
+            </div>
         </div>
     </section>
-    <main>
-        <h2>Casas y departamentos en venta</h2>
-        <div>
-            <img src="img/anuncio1.jpg" alt="anuncio casa en el lago">
-            <h3>Casa de lujo en el lago</h3>
-            <p>Casa en el lago con excelente vista, acabados de
-                lujo a un excelente precio</p>
-            <p>$30000,00</p>
-            <a href="#">Ver propiedad</a><br>
-        </div>
-        <div>
-            <img src="img/anuncio2.jpg" alt="anuncio casa en el lago">
-            <h3>Casa terminados de lujo</h3>
-            <p>Casa en el lago con excelente vista, acabados de
-                lujo a un excelente precio</p>
-            <p>$20000,00</p>
-            <a href="#">Ver propiedad</a><br>
-        </div>
-        <div>
-            <img src="img/anuncio3.jpg" alt="anuncio casa en el lago">
-            <h3>Casa con alberca</h3>
-            <p>Casa en el lago con excelente vista, acabados de
-                lujo a un excelente precio</p>
-            <p>$50000,00</p>
-            <a href="#">Ver propiedad</a><br>
-        </div>
+    <main class="seccion contenedor">
+        <h2 class="font-weight-300 centrar-texto">Casas y departamentos en venta</h2>
 
-        <a href="anuncios.html">Ver todas</a>
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <img src="img/anuncio1.jpg" alt="anuncio casa en el lago">
+                <div class="contenido-anuncio">
+                    <h3>Casa de lujo en el lago</h3>
+                    <p>Casa en el lago con excelente vista, acabados de
+                        lujo a un excelente precio</p>
+                    <p class="precio">$30000,00</p>
+                    <a href="#" class="boton boton-amarillo">Ver propiedad</a><br>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="img/anuncio2.jpg" alt="anuncio casa en el lago">
+                <div class="contenido-anuncio">
+                    <h3>Casa terminados de lujo</h3>
+                    <p>Casa en el lago con excelente vista, acabados de
+                        lujo a un excelente precio</p>
+                    <p class="precio">$20000,00</p>
+                    <a href="#" class="boton boton-amarillo">Ver propiedad</a><br>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="img/anuncio3.jpg" alt="anuncio casa en el lago">
+                <div class="contenido-anuncio">
+                    <h3>Casa con alberca</h3>
+                    <p>Casa en el lago con excelente vista, acabados de
+                        lujo a un excelente precio</p>
+                    <p class="precio">$50000,00</p>
+                    <a href="#" class="boton boton-amarillo">Ver propiedad</a><br>
+                </div>
+            </div>
+        </div><br>
+        <div class="ver-todas">
+            <a href="anuncios.html" class="boton boton-verde">Ver todas</a>
+        </div>
     </main>
 
     <section>
