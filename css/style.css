@@ -7,10 +7,8 @@ body {
   font-size: 1.6rem;
 }
 
-img{
-
+img {
   max-width: 100%;
-
 }
 
 /*header*/
@@ -41,13 +39,11 @@ img{
   justify-content: space-between;
 }
 
-.font-weight-300{
-
+.font-weight-300 {
   font-weight: 300;
 }
 
-.centrar-texto{
-
+.centrar-texto {
   text-align: center;
 }
 
@@ -101,22 +97,18 @@ footer p {
 .icono h3 {
   text-transform: uppercase;
 }
-.encabezado-nosotros{
-
+.encabezado-nosotros {
   font-weight: 300;
   text-align: center;
 }
 
 /*anuncios*/
-.contenedor-anuncios{
-
+.contenedor-anuncios {
   display: flex;
   justify-content: space-between;
-  
 }
 
-.anuncio{
-
+.anuncio {
   flex-basis: calc(33.3%-1rem);
 
   margin: 10px;
@@ -125,44 +117,169 @@ footer p {
   border-color: #b5b5b5;
   border-width: 1px;
   background-color: #f5f5f5;
-
 }
 
-.contenido-anuncio{
-
+.contenido-anuncio {
   padding: 2rem;
 }
-.precio{
-
-  color:green;
+.precio {
+  color: green;
   font-weight: 700;
-
 }
 
 /*botones*/
-.boton{
-
-text-decoration: none;
-color: white;
-font-size: 1.8rem;
-padding: 1rem 3rem;
-text-align: center;
+.boton {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  text-align: center;
 }
 
-.boton-amarillo{
-
+.boton-amarillo {
   background: rgb(160, 133, 14);
   display: block;
 }
 
-.boton-verde{
+.boton-size{
 
-background: #71b700;
+display: inline-block;
 
 }
 
-.ver-todas{
+.boton-verde {
+  background: #71b700;
+}
 
+.ver-todas {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imagen-contacto {
+  background-image: url(../img/encuentra.jpg);
+  height: 40rem;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.contenido-contacto {
+  flex: 1;
+  color: white;
+
+}
+
+.contenido-contacto p{
+
+font-size: 1.8rem;
+
+}
+
+.iconos-caracteristicas{
+
+list-style: none;
+padding: 0;
 display: flex;
-justify-content: flex-end;
+text-align: center;
+justify-content: space-evenly;
+
+}
+
+.iconos-caracteristicas li{
+
+  /*flex: 1;*/
+  display: flex;
+  
+
+}
+
+.iconos-caracteristicas li img{
+
+  margin-right: 2rem;
+}
+
+.seccion-inferior{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.seccion-inferior .blog{
+
+flex-basis: 60%;
+
+}
+
+.seccion-inferior .testimoniales{
+
+flex-basis: calc(40%-2rem);
+
+}
+
+.entrada-blog{
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.entrada-blog .imagen{
+
+flex-basis: 40%;
+
+}
+
+.entrada-blog .texto-entrada{
+
+flex-basis: calc(60% - 3rem);
+
+}
+
+.texto-entrada h4{
+
+margin-top: 0;
+font-size: 2.4rem;
+}
+
+.texto-entrada a{
+
+  text-decoration: none;
+  color: black;
+}
+
+.texto-entrada a:hover{
+
+  color: #71b700;
+}
+
+.texto-entrada h4::after{
+
+content: '';
+display: block;
+width: 15rem;
+height: 0.5rem;
+background-color: #71b700;
+margin-top: 1rem;
+
+}
+
+.texto-entrada em{
+
+  color: orangered;
+}
+
+.testimonial{
+
+  background-color: green;
+  font-size: 2.4rem;
+  padding: 2rem;
+  border-radius: 15px;
+  color: white;
+}
+
+.testimonial p{
+
+
 }
